@@ -1,7 +1,8 @@
 output "filename" {
-  value = "${var.filename}"
+  value = var.filename
 }
 
 output "content" {
-  value = "${var.content}"
+  value = var.content
 }
+
